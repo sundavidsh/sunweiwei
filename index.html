@@ -62,10 +62,10 @@ if (submitOK=="false")
 <script>
 $(document).ready(function(){
   $(".navbar navbar-default navbar-fixed-top").mouseleave(function(){
-    $(".our").fadeIn("slow");
-	  $(".founder").fadeIn(3000);
-	  $(".deffence").fadeIn(5000);
-	   $(".team").fadeIn(6000);
+    $(".our").fadeToggle("slow");
+	  $(".founder").fadeToggle("slow");
+	  $(".deffence").fadeToggle("slow");
+	   $(".team").fadeToggle("slow");
 	  
 	  
      });
