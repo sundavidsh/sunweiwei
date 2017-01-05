@@ -61,8 +61,13 @@ if (submitOK=="false")
 <script src="/jquery/jquery-1.11.1.min.js"></script>
 <script>
 $(document).ready(function(){
-  $(".header").mouseleave(function(){
-    $(".our").fadeToggle("slow");
+  $(".navbar navbar-default navbar-fixed-top").mouseleave(function(){
+    $(".our").fadeIn("slow");
+	  $(".founder").fadeIn(3000);
+	  $(".deffence").fadeIn(5000);
+	   $(".team").fadeIn(6000);
+	  
+	  
      });
 });
 </script>	
