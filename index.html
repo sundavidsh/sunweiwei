@@ -62,7 +62,7 @@ if (submitOK=="false")
 <script>
 $(document).ready(function(){
   $("header").mouseleave(function(){
-    $("container").fadeIn();
+    $("#our").fadeIn();
      });
 });
 </script>	
@@ -73,9 +73,9 @@ $(document).ready(function(){
 
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top" id="header">
+<nav class="navbar navbar-default navbar-fixed-top">
 <!-- header -->
-	<div class="header">
+	<div class="header" id="header">
 		<div class="logo">
 			<h1><a href="./index.html">David</a></h1>
 		</div>	
@@ -119,8 +119,8 @@ $(document).ready(function(){
 <!-- end banner -->
 <br><br><br><br>
 <!-- our -->
-<div class="our">
-	<div class="container" id="container">
+<div class="our" id="our">
+	<div class="container">
 		<h3>David Sun | Sun Weiwei Introduction in Chinese/Japanes/French/German</h3>
 		<div class="col-md-6 our-tp">
 			<div class="ou-lft">
