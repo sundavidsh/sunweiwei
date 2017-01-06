@@ -24,13 +24,13 @@ body a{
 /*----*/
 .header {
   padding: 0em 5em;
-  background-color:#0062ad;
+  background-color:#333;
 }
 .logo {
   float: left;
   width: 14%;
   padding: 1.15em 2em;
-  background-color: #0062ad;
+  background-color: #333;
 }
 .logo h1 a {
   color: #fff;
@@ -366,7 +366,7 @@ select.arrival {
   font-size: 2em;
   margin: 0 0 2em;
   font-weight: 700;
-  color: #000;
+  color: #fda;
   text-align:center;
   
   font-family: MeriendaOne-Regular;
@@ -386,7 +386,7 @@ select.arrival {
   font-weight: 700;
 }
 .our p {
-  color: #3c763d;
+  color: #fda;
   font-size: 1em;
   line-height: 1.8em;
 }
