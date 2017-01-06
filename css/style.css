@@ -4,6 +4,7 @@ ul, ol {margin: 0;}
 p {margin: 0;}
 html,body{	
 	font-family:OpenSans-Regular;
+	background: #333253;
 }
 body a{
 	transition:0.5s all;
