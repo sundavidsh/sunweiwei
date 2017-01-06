@@ -622,7 +622,7 @@ color:#e21737;
 /*-- about -- */
 .about h2 {
   font-size: 2em;
-  color: #000;
+  color: #fda;
   font-weight: 700;
   text-align: center;
   margin: 0 0 1em;
@@ -647,7 +647,7 @@ color:#e21737;
 }
 .about h3 {
   font-size: 2em;
-  color: rgb(0, 0, 0);
+  color: #fda;
   font-weight: 700;
   text-align: center;
   margin: 0px 0px 1em;
