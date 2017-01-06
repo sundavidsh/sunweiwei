@@ -62,14 +62,17 @@ if (submitOK=="false")
 <script>
 $(document).ready(function(){
 $(".ou-rgt").hover(function(){
+	$(".founder").hide();
    	  $(".founder").fadeIn("slow");
  });
 	
 $(".founder").hover(function(){
-   	  $(".deffence").fadeToggle("slow");
+		 $(".deffence").hide();
+   	  $(".deffence").fadein("slow");
 });
 $(".deffence").hover(function(){
-   	  $(".team").fadeToggle("slow");
+	$(".team").hide();
+   	  $(".team").fadein("slow");
 });
 });
 </script>	
