@@ -61,14 +61,16 @@ if (submitOK=="false")
 <script src="/jquery/jquery-1.11.1.min.js"></script>
 <script>
 $(document).ready(function(){
-mouseWheel(function(){
-    $(".our").fadeToggle("slow");
-	  $(".founder").fadeToggle("slow");
-	  $(".deffence").fadeToggle("slow");
-	   $(".team").fadeToggle("slow");
-	  
-	  
-     });
+$(".ou-rgt").hover(function(){
+   	  $(".founder").fadeIn("slow");
+ });
+	
+$(".founder").hover(function(){
+   	  $(".deffence").fadeToggle("slow");
+});
+$(".deffence").hover(function(){
+   	  $(".team").fadeToggle("slow");
+});
 });
 </script>	
 	
